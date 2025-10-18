@@ -1,0 +1,7 @@
+[project]
+name = "Aristotle"
+version = "0.1.0"
+description = "Aristotle enables you to talk with any codebase's source code & documentation"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
