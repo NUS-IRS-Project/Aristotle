@@ -3,9 +3,7 @@
      style="float: left; margin-right: 1px;" />
 ## Aristotle - Code Documentation and productivity inclined chatbot
 
-
-
-## SECTION 2 : EXECUTIVE SUMMARY / PAPER ABSTRACT
+## PROJECT ABSTRACT
 
 Aristotle is a documentation-grounded coding assistant that delivers precise, up-to-date answers about software libraries and codebases. The project targets a persistent industry pain point: developers lose significant time context-switching between official docs, forums, and scattered examples—especially as frameworks evolve rapidly and teams juggle both public and internal repositories. Aristotle combines retrieval-augmented generation (RAG) with dual sources of truth—documentation pages and the source code itself—to return concise, citation-backed responses such as required function arguments, error fixes, and idiomatic usage patterns (Python first, language-extensible). The system continuously live-updates its index to reflect edits in the user’s working tree and can ingest local projects or any public Git repository, minimizing hallucinations by grounding outputs in verifiable artifacts. Delivered as a VS Code extension, it provides an accessible chat UI and example snippets tailored to the active workspace. While enterprise privacy controls (e.g., air-gapped or firewall deployments) are outside this project’s current scope, the architecture is compatible with such setups for organizations that require private code search. By replacing manual exploration with targeted, evidence-linked retrieval, Aristotle improves developer productivity, shortens time-to-fix, and preserves flow, offering a pragmatic path from “vibe coding” to trustworthy, documentation-backed assistance.
 
@@ -18,8 +16,8 @@ Our team had an amazing time working on this project, and hope to share our insi
 
 | Official Full Name (Alphabetical order)  | Student ID (MTech Applicable)  | Work Items (Who Did What) | Email (Optional) |
 | :------------ |:---------------:| :-----| :-----|
-| Nobert Oliver | A0328685M | Complete design and development of all modules| e1553012@u.nus.edu |
-| Sharvesh Subhash | A0327428Y | Complete design and development of all module| sharvesh.subhash@u.nus.edu |
+| Nobert Oliver | A0328685M | Complete design, implementation and code review of all modules| e1553012@u.nus.edu |
+| Sharvesh Subhash | A0327428Y | Complete design, implementation and code review of all modules| sharvesh.subhash@u.nus.edu |
 
 ---
 
