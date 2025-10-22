@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="Pics/Title_pic.png" alt="Title image" width="420">
+  <img src="Pics/pic.png" alt="Title image" width="420">
 </p>
 
 ## Aristotle - Code Documentation and productivity inclined chatbot
