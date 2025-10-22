@@ -1,5 +1,5 @@
 ## SECTION 1 : PROJECT TITLE
-<img src="Pics/Logo.png"
+<img src="Pics/Title.png"
      style="float: left; margin-right: 1px;" />
 ## Aristotle - Code Documentation and productivity inclined chatbot
 
