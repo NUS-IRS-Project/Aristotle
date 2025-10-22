@@ -1,5 +1,7 @@
-<img src="Pics/Title_pic.png"
-     style="float: center; margin-right: 1px;" />
+<p align="center">
+  <img src="Pics/Title_pic.png" alt="Title image" width="420">
+</p>
+
 ## Aristotle - Code Documentation and productivity inclined chatbot
 
 ## PROJECT ABSTRACT
