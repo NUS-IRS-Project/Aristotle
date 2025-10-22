@@ -1,7 +1,7 @@
 ## SECTION 1 : PROJECT TITLE
 ## Aristotle - Code Documentation and productivity inclined chatbot
 
-<img src="SystemCode/clips/static/hdb-bto.png"
+<img src="Pics/Logo.png"
      style="float: left; margin-right: 0px;" />
 
 ## SECTION 2 : EXECUTIVE SUMMARY / PAPER ABSTRACT
