@@ -15,7 +15,7 @@ Our team had an amazing time working on this project, each minute deatil is take
 
 ## SECTION 3 : CREDITS / PROJECT CONTRIBUTION
 
-| Official Full Name (Alphabetical order)  | Student ID (MTech Applicable)  | Work Items (Who Did What) | Email (Optional) |
+| Official Full Name (Alphabetical order)  | Student ID  | Work Items | Email |
 | :------------ |:---------------:| :-----| :-----|
 | Nobert Oliver | A0328685M | Complete design, implementation and code review of all modules| e1553012@u.nus.edu |
 | Sharvesh Subhash | A0327428Y | Complete design, implementation and code review of all modules| sharvesh.subhash@u.nus.edu |
