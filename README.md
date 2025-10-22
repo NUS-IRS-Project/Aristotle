@@ -40,8 +40,8 @@ Our team had an amazing time working on this project, and hope to share our insi
 
 | Official Full Name (Alphabetical order)  | Student ID (MTech Applicable)  | Work Items (Who Did What) | Email (Optional) |
 | :------------ |:---------------:| :-----| :-----|
-| Nobert Oliver | A0328685M | Complete design and development of each module| e1553012@u.nus.edu |
-| Sharvesh Subhash | A0327428Y | Complete design and development of each module| sharvesh.subhash@u.nus.edu |
+| Nobert Oliver | A0328685M | Complete design and development of all modules| e1553012@u.nus.edu |
+| Sharvesh Subhash | A0327428Y | Complete design and development of all module| sharvesh.subhash@u.nus.edu |
 
 ---
 
