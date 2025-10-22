@@ -4,8 +4,6 @@
 <img src="SystemCode/clips/static/hdb-bto.png"
      style="float: left; margin-right: 0px;" />
 
----
-
 ## SECTION 2 : EXECUTIVE SUMMARY / PAPER ABSTRACT
 Singapore ranks amongst countries with the highest population density in the world. In a bid to have firm control over long term urban planning, the Singapore government came up with the “Built to Order” (abbreviated BTO) initiative back in 2001. These are new Housing Development Board (HDB) flats tightly controlled by their eligibility and quantity released every year. In more recent years, the modern BTO scheme in Singapore requires a waiting period of 3-4 years, and is generally targeted at young Singaporean couples looking to purchase their first property and set up a family. Nationality and income ceilings are some of the broad filters that determine one’s eligibility for the highly sought after projects. 
 
