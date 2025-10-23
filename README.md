@@ -2,7 +2,7 @@
   <img src="Pics/pic.png" alt="Title image" width="420">
 </p>
 
-## Aristotle - Code Documentation and productivity inclined chatbot
+## Aristotle - The Developer Assistant ֎ 
 
 ## PROJECT ABSTRACT
 
