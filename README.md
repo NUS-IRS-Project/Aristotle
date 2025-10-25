@@ -13,7 +13,11 @@ We had an amazing time working on this project, each minute detail is taken care
 
 --
 ## Screenshots of the Results
-Aristotle's Performance with a foundational generic non-coding model with zero coding knowledge.
+Generic Non-Code generating Model: Llama3.1:8B's response for a question:  
+<p align="left">
+  <img src="Pics/Logo.png" alt="Title image" width="420">
+</p>
+Aristotle's Response for the same question with the same generic non-coding model(Llama3.1:8B) with zero coding knowledge.
 <p align="left">
   <img src="Pics/Example_Response.png" alt="Title image" width="420">
 </p>
