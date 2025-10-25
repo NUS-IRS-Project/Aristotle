@@ -171,6 +171,7 @@ Open **VS Code → Extensions** panel → **…** (top-right) → **Install from
   @aristotle "Summarize this module and list its public APIs"
   @aristotle "Suggest tests for this file"
   @aristotle "Use this codebase and tell me how to resolve this using the Pandas library documentations"
+  
   ```
 
 ---
@@ -178,8 +179,8 @@ Open **VS Code → Extensions** panel → **…** (top-right) → **Install from
 ## 🌟 Why Developers Love Aristotle
 
 * **Grounded answers** from your code & docs (vector + graph retrieval)
-* **Low compute, high utility** — runs with 8B models via Ollama
-* **Familiar tools** — Docker, Neo4j, VS Code
+* **Low compute, high utility** - runs with 8B models via Ollama
+* **Familiar tools** - Docker, Neo4j, VS Code
 * **Privacy-first** local workflows
 
 If this resonates, **star the repo** and help more developers discover it!
@@ -250,7 +251,7 @@ Use the `.env` file for local dev. For deployments, prefer your platform’s sec
 * More language server-style actions in the VS Code UI
 * Templates for common project setups and datasets
 
-If you want any of these, please **upvote or comment** on the corresponding issues — or open a PR!
+If you want any of these, please **upvote or comment** on the corresponding issues - or open a PR!
 
 ---
 
