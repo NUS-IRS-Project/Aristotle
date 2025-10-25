@@ -17,7 +17,8 @@ Generic Non-Code generating Model: Llama3.1:8B's response for a question:
 <p align="left">
   <img src="Pics/Plain_Llama3.1:8B_result.png" alt="Title image" width="420">
 </p>
-Aristotle's Response for the same question with the same generic non-coding model(Llama3.1:8B) with zero coding knowledge.
+Aristotle agentic framework's Response for the same question, 
+when connected with the same generic non-coding model(Llama3.1:8B) with zero coding knowledge.
 <p align="left">
   <img src="Pics/Example_Response.png" alt="Title image" width="420">
 </p>
