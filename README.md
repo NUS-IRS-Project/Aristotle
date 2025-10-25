@@ -6,14 +6,14 @@
 
 ## PROJECT ABSTRACT
 
-Aristotle is a documentation-grounded coding assistant that delivers precise, up-to-date answers about software libraries and codebases. The project targets a persistent industry pain point: developers lose significant time context-switching between official docs, forums, and scattered examples-especially as frameworks evolve rapidly and teams juggle both public and internal repositories. Aristotle combines retrieval-augmented generation (RAG) with dual sources of truth-documentation pages and the source code itself-to return concise, citation-backed responses such as required function arguments, error fixes, and idiomatic usage patterns (Python first, language-extensible). The system continuously live-updates its index to reflect edits in the user’s working tree and can ingest local projects or any public Git repository, minimizing hallucinations by grounding outputs in verifiable artifacts. Delivered as a VS Code extension, it provides an accessible chat UI and example snippets tailored to the active workspace. While enterprise privacy controls (e.g., air-gapped or firewall deployments) are outside this project’s current scope, the architecture is compatible with such setups for organizations that require private code search. By replacing manual exploration with targeted, evidence-linked retrieval, Aristotle improves developer productivity, shortens time-to-fix, and preserves flow, offering a pragmatic path from “vibe coding” to trustworthy, documentation-backed assistance.
+Aristotle is a documentation and codebse grounded agentic developer assistant that delivers precise, up-to-date answers about software libraries and codebases. The project targets a persistent industry pain point: developers lose significant time context-switching between official docs, forums, and scattered examples-especially as frameworks evolve rapidly and teams juggle both public and internal repositories. Aristotle combines retrieval-augmented generation (RAG) with dual sources of truth-documentation pages and the source code itself-to return concise, citation-backed responses such as required function arguments, error fixes, and idiomatic usage patterns (Python first, language-extensible). The system continuously live-updates its index to reflect edits in the user’s working tree and can ingest local projects or any public Git repository, minimizing hallucinations by grounding outputs in verifiable artifacts. Delivered as a VS Code extension, it provides an accessible chat UI and example snippets tailored to the active workspace. While enterprise privacy controls (e.g., air-gapped or firewall deployments) are outside this project’s current scope, the architecture is compatible with such setups for organizations that require private code search. By replacing manual exploration with targeted, evidence-linked retrieval, Aristotle improves developer productivity, shortens time-to-fix, and preserves flow, offering a pragmatic path from “vibe coding” to trustworthy, documentation-backed assistance.
 
 
 We had an amazing time working on this project, each minute detail is taken care of, you can straight away run this repository to use it for your own private code base as a developer, or use this to learn coding as a student by deploying it as your personal local offline coding tutor, as a VSCode Extension. 
 
 ---
 
-## SECTION 3 : CREDITS / PROJECT CONTRIBUTION
+## SECTION 3 : CONTRIBUTORS
 
 | Official Full Name (Alphabetical order)  | Student ID  | Work Items | Email |
 | :------------ |:---------------:| :-----| :-----|
@@ -79,7 +79,7 @@ Aristotle is an **agentic Developer assistant** built for Python-centric workflo
 * 🐳 One-command **Docker** server
 * 🧩 **VS Code extension** for in-editor chat and commands
 
-If you like the approach, **please star the repository** — it really helps the project grow!
+If you like the approach, **please star the repository** - it really helps the project grow!
 
 ---
 
@@ -170,6 +170,7 @@ Open **VS Code → Extensions** panel → **…** (top-right) → **Install from
   @aristotle "Explain this function"
   @aristotle "Summarize this module and list its public APIs"
   @aristotle "Suggest tests for this file"
+  @aristotle "Use this codebase and tell me how to resolve this using the Pandas library documentations"
   ```
 
 ---
@@ -246,7 +247,7 @@ Use the `.env` file for local dev. For deployments, prefer your platform’s sec
 ## 🗺️ Roadmap (high-level)
 
 * Improved graph-based retrieval ops and evaluators
-* More language server–style actions in the VS Code UI
+* More language server-style actions in the VS Code UI
 * Templates for common project setups and datasets
 
 If you want any of these, please **upvote or comment** on the corresponding issues — or open a PR!
