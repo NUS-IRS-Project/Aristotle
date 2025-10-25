@@ -31,36 +31,232 @@ More reference video presentations [here](https://telescopeuser.wordpress.com/20
 
 ---
 
-## SECTION 5 : USER GUIDE
+## SECTION 5 :
+# Aristotle - Developer Quickstart & VS Code Extension Guide
 
-`Refer to appendix <Installation & User Guide> in project report at Github Folder: ProjectReport`
-
-### [ 1 ] To run the system using iss-vm
-
-> download pre-built virtual machine from http://bit.ly/iss-vm
-
-> start iss-vm
-
-> open terminal in iss-vm
-
-> $ git clone https://github.com/telescopeuser/Workshop-Project-Submission-Template.git
-
-> $ source activate iss-env-py2
-
-> (iss-env-py2) $ cd Workshop-Project-Submission-Template/SystemCode/clips
-
-> (iss-env-py2) $ python app.py
-
-> **Go to URL using web browser** http://0.0.0.0:5000 or http://127.0.0.1:5000
-
-### [ 2 ] To run the system in other/local machine:
-### Install additional necessary libraries. This application works in python 2 only.
-
-> $ sudo apt-get install python-clips clips build-essential libssl-dev libffi-dev python-dev python-pip
-
-> $ pip install pyclips flask flask-socketio eventlet simplejson pandas
+> Spin up the server, use the VS Code extension, and start contributing — in minutes. If this helps you, **please ⭐ star the repo** and share feedback!
 
 ---
+
+## 🚀 Quickstart (TL;DR)
+
+```bash
+# Server (Windows + WSL2)
+# 1) Install prerequisites: Docker Desktop (with WSL2 integration), Ollama, Neo4j
+# 2) Open a terminal in the repo's `system/` folder
+cp .env.example .env   # then edit values as needed
+
+docker build -t aristotle:latest .
+docker run -p 8000:8000 --add-host=host.docker.internal:host-gateway aristotle:latest
+
+# Visit the API: http://localhost:8000
+```
+
+```bash
+# UI (VS Code Extension)
+# Requires Node v20+ (tip: use nvm), VS Code, and `vsce`
+cd ui
+npm i
+npm i -g vsce
+vsce package
+# In VS Code: Extensions → … menu → Install from VSIX → pick the generated .vsix
+```
+
+Then in VS Code chat: **Ctrl + Shift + I** and type:
+
+```
+@aristotle Explain this file
+```
+
+---
+
+## 📦 What is Aristotle?
+
+Aristotle is an **agentic Developer assistant** built for Python-centric workflows. It combines **vector search + knowledge graphs** with lightweight LLMs to minimize hallucinations and give accurate, grounded answers from codebases and docs.
+
+* ⚡ Works locally with 8B-class models via **Ollama**
+* 🧠 Uses **Neo4j** for graph-enhanced understanding
+* 🐳 One-command **Docker** server
+* 🧩 **VS Code extension** for in-editor chat and commands
+
+If you like the approach, **please star the repository** — it really helps the project grow!
+
+---
+
+## 🖥️ Server Setup (Windows + WSL2)
+
+### 1) Prerequisites
+
+* **Docker Desktop** for Windows with **WSL2 integration enabled**
+* **Ollama** installed and running (verify with `ollama list`)
+* **Neo4j** installed, started, and reachable (note your URI, user, password)
+
+### 2) Configure environment
+
+From the repo’s **`system/`** directory:
+
+```bash
+cp .env.example .env
+```
+
+Open `.env` and fill in the required values. Typical variables include (examples):
+
+```
+NEO4J_URI=bolt://localhost:7687
+NEO4J_USER=neo4j
+NEO4J_PASSWORD=your_password
+# Add any model/provider keys/settings your setup requires
+```
+
+> Make sure your Neo4j DB is **running** and credentials **match** what you put here.
+
+### 3) Build the image
+
+```bash
+docker build -t aristotle:latest .
+```
+
+### 4) Run the container
+
+```bash
+docker run -p 8000:8000 \
+  --add-host=host.docker.internal:host-gateway \
+  aristotle:latest
+```
+
+* This exposes the API at **[http://localhost:8000](http://localhost:8000)**.
+* If your app reads environment variables at runtime and you prefer not to bake them into the image, you can run with:
+
+  ```bash
+  docker run -p 8000:8000 --env-file .env \
+    --add-host=host.docker.internal:host-gateway \
+    aristotle:latest
+  ```
+
+### 5) Verify
+
+Open **[http://localhost:8000](http://localhost:8000)**.
+
+* If a health route or docs page is available (e.g., `/health`, `/docs`), check them to confirm everything is wired up.
+* Ensure **Ollama** is running locally (default service runs on port **11434**) and that the model(s) you intend to use are available.
+
+---
+
+## 🧩 VS Code Extension (UI)
+
+### Requirements
+
+* **Node.js v20+** (recommended via `nvm install --lts`)
+* **VS Code**
+* **vsce** packager installed globally: `npm i -g vsce`
+
+### Build & Install
+
+```bash
+cd ui
+npm i
+vsce package   # produces a .vsix
+```
+
+Open **VS Code → Extensions** panel → **…** (top-right) → **Install from VSIX…** → select the generated `.vsix` file.
+
+### Use in VS Code
+
+* **Login with GitHub Copilot** (if your workflow requires it)
+* Open the **Chat** panel (or press **Ctrl + Shift + I**)
+* Start interacting:
+
+  ```
+  @aristotle "Explain this function"
+  @aristotle "Summarize this module and list its public APIs"
+  @aristotle "Suggest tests for this file"
+  ```
+
+---
+
+## 🌟 Why Developers Love Aristotle
+
+* **Grounded answers** from your code & docs (vector + graph retrieval)
+* **Low compute, high utility** — runs with 8B models via Ollama
+* **Familiar tools** — Docker, Neo4j, VS Code
+* **Privacy-first** local workflows
+
+If this resonates, **star the repo** and help more developers discover it!
+
+---
+
+## 🤝 Contributing
+
+We welcome issues, discussions, and pull requests.
+
+**Best way to start:**
+
+1. Star ⭐ the repo and watch for updates
+2. Try the quickstart and open issues for any rough edges
+3. Look for **good first issue** or ask for one
+4. Submit a PR with:
+
+   * Clear scope & checklist
+   * Before/After notes or screenshots where relevant
+
+> Tip: If you’re proposing architectural changes (e.g., retriever choice, indexing strategy, model routing), consider opening a short design proposal first so we can collaborate early.
+
+---
+
+## 🛠️ Troubleshooting
+
+**Uvicorn doesn’t start / server exits**
+
+* Check container logs: `docker logs <container>`
+* Confirm `.env` values and that **Neo4j** is reachable
+* Ensure **Ollama** is running and models are available
+* Port 8000 in use? Try `-p 8080:8000` and visit `http://localhost:8080`
+
+**Ollama not reachable from container**
+
+* Make sure Ollama service is running (default **11434**) on the host
+* The flag `--add-host=host.docker.internal:host-gateway` lets the container reach the host
+* If your app expects a base URL, set it accordingly in `.env`
+
+**Neo4j auth/connection errors**
+
+* Verify `NEO4J_URI`, `NEO4J_USER`, `NEO4J_PASSWORD`
+* Ensure the DB is running and accepts Bolt connections (7687 by default)
+
+**`vsce` not found / packaging fails**
+
+* Re-open terminal after `npm i -g vsce`
+* Ensure Node v20+ (`node -v`)
+
+---
+
+## 📚 FAQ
+
+**Do I need a GPU?**
+No. Aristotle targets small local models; CPU works, GPU is optional for speed.
+
+**Can I use my own models?**
+If they run on Ollama (or your adapter), point the config to them.
+
+**Where do I put secrets?**
+Use the `.env` file for local dev. For deployments, prefer your platform’s secret store.
+
+---
+
+## 🗺️ Roadmap (high-level)
+
+* Improved graph-based retrieval ops and evaluators
+* More language server–style actions in the VS Code UI
+* Templates for common project setups and datasets
+
+If you want any of these, please **upvote or comment** on the corresponding issues — or open a PR!
+
+---
+
+## 🙌 Thanks
+
+Every star, issue, and PR helps Aristotle get better. If you shipped something with it, we’d love to hear your story!
+
 ## SECTION 6 : PROJECT REPORT / PAPER
 
 `Refer to project report at Github Folder: ProjectReport`
