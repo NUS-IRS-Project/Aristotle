@@ -11,7 +11,7 @@ Aristotle is a documentation and codebase grounded agentic developer assistant t
 
 We had an amazing time working on this project, each minute detail is taken care of, you can straight away run this repository to use it for your own private code base as a developer, or use this to learn coding as a student by deploying it as your personal local offline coding tutor, as a VSCode Extension. 
 
---
+---
 ## Screenshots of the performance evaluation with responses
 Generic Non-Code generating Model: Llama3.1:8B's response for a question:  
 <p align="left">
