@@ -12,9 +12,13 @@ Aristotle is a documentation and codebase grounded agentic developer assistant t
 We had an amazing time working on this project, each minute detail is taken care of, you can straight away run this repository to use it for your own private code base as a developer, or use this to learn coding as a student by deploying it as your personal local offline coding tutor, as a VSCode Extension. 
 
 --
-Screenshots of the Results
+## Screenshots of the Results
+Graph Search based result(Bottom), Aristotle's Accurate Response(On the Right)
 <p align="center">
   <img src="Pics/Example_Result_GS.png" alt="Title image" width="420">
+</p>
+Vector Search based result(Bottom), Aristotle's Accurate Response(On the Right)
+<p align="center">
   <img src="Pics/Example_Result_VS.png" alt="Title image" width="420">
 </p>
 
