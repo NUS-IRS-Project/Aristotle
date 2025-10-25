@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="Pics/pic.png" alt="Title image" width="420">
+  <img src="Pics/Logo.png" alt="Title image" width="420">
 </p>
 
 ## Aristotle - The Developer Assistant ֎ 
