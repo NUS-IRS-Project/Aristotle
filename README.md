@@ -14,8 +14,8 @@ We had an amazing time working on this project, each minute detail is taken care
 --
 Screenshots of the Results
 <p align="center">
-  <img src="Pics/Logo.png" alt="Title image" width="420">
-  <img src="Pics/Logo.png" alt="Title image" width="420">
+  <img src="Pics/Example_Result_GS.png" alt="Title image" width="420">
+  <img src="Pics/Example_Result_VS.png" alt="Title image" width="420">
 </p>
 
 ---
