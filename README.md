@@ -13,6 +13,10 @@ We had an amazing time working on this project, each minute detail is taken care
 
 --
 ## Screenshots of the Results
+Aristotle's Performance
+<p align="left">
+  <img src="Pics/Example_Response.png" alt="Title image" width="420">
+</p>
 Graph Search based result(Bottom), Aristotle's Accurate Response(On the Right)
 <p align="left">
   <img src="Pics/Example_Result_GS.png" alt="Title image" width="420">
