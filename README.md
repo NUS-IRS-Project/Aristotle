@@ -13,7 +13,7 @@ We had an amazing time working on this project, each minute detail is taken care
 
 ---
 
-## SECTION 3 : CONTRIBUTORS
+## CONTRIBUTORS
 
 | Official Full Name (Alphabetical order)  | Student ID  | Work Items | Email |
 | :------------ |:---------------:| :-----| :-----|
@@ -22,7 +22,7 @@ We had an amazing time working on this project, each minute detail is taken care
 
 ---
 
-## SECTION 4 : VIDEO OF SYSTEM MODELLING & USE CASE DEMO
+## VIDEO OF SYSTEM MODELLING & USE CASE DEMO
 
 [![Sudoku AI Solver](http://img.youtube.com/vi/-AiYLUjP6o8/0.jpg)](https://youtu.be/-AiYLUjP6o8 "Sudoku AI Solver")
 
