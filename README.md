@@ -14,11 +14,11 @@ We had an amazing time working on this project, each minute detail is taken care
 --
 ## Screenshots of the Results
 Graph Search based result(Bottom), Aristotle's Accurate Response(On the Right)
-<p align="center">
+<p align="left">
   <img src="Pics/Example_Result_GS.png" alt="Title image" width="420">
 </p>
 Vector Search based result(Bottom), Aristotle's Accurate Response(On the Right)
-<p align="center">
+<p align="left">
   <img src="Pics/Example_Result_VS.png" alt="Title image" width="420">
 </p>
 
