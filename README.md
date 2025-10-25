@@ -13,7 +13,7 @@ We had an amazing time working on this project, each minute detail is taken care
 
 --
 ## Screenshots of the Results
-Aristotle's Performance
+Aristotle's Performance with a foundational generic non-coding model with zero coding knowledge.
 <p align="left">
   <img src="Pics/Example_Response.png" alt="Title image" width="420">
 </p>
