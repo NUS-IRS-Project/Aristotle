@@ -55,6 +55,7 @@ Vector Search based result(Bottom), Aristotle's Accurate Response(On the Right)
 ## VIDEO OF SYSTEM MODELLING & USE CASE DEMO
 
 Youtube Links: Will be added soon 
+https://youtu.be/7WmAVbI0FV0
 
 Google Drive Links
 Business and Demo Video: https://drive.google.com/file/d/1vEvXu0z60OLU17FVT2GGo2MKZWNI1SU2/view?usp=sharing
