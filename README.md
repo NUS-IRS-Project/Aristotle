@@ -20,7 +20,7 @@ Generic Non-Code generating Model: Llama3.1:8B's response for a question:
 Aristotle agentic framework's Response for the same question, 
 when connected with the same generic non-coding model(Llama3.1:8B) which is not pre-trained for code generation.
 <p align="left">
-  <img src="Pics/Aristotle_Response.png" alt="Title image" width="420">
+  <img src="Pics/Demo UI.png" alt="Title image" width="420">
 </p>
 Graph Search based result(Bottom), Aristotle's Accurate Response(On the Right)
 <p align="left">
