@@ -54,20 +54,23 @@ Vector Search based result(Bottom), Aristotle's Accurate Response(On the Right)
 
 ## VIDEO OF SYSTEM MODELLING & USE CASE DEMO
 
-Youtube Links:
-Demo:
+## Youtube Links:
+## Demo:
 <p align="center">
   <a href="https://youtu.be/7WmAVbI0FV0">
     <img src="https://img.youtube.com/vi/7WmAVbI0FV0/maxresdefault.jpg" alt="Project demo" width="700
   </a>
 </p>
-System Design:
+
+---
+
+## System Design:
 <p align="center">
   <a href="https://youtu.be/aHWykV4YTTQ">
      <img src="https://img.youtube.com/vi/aHWykV4YTTQ/maxresdefault.jpg" alt="Project demo" width="700">
   </a>
 </p>
-
+---
 
 Google Drive Links
 Business and Demo Video: https://drive.google.com/file/d/1vEvXu0z60OLU17FVT2GGo2MKZWNI1SU2/view?usp=sharing
