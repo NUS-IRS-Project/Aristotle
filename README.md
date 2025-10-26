@@ -14,7 +14,10 @@ We had an amazing time working on this project, each minute detail is taken care
 ---
 ## Screenshots of the evaluation report
 <p align="left">
-  <img src="Pics/RAGAS.png.png" alt="Title image" width="420">
+  <img src="Pics/RAGAS.png" alt="Title image" width="420">
+</p>
+<p align="left">
+  <img src="Pics/RTD.png" alt="Title image" width="420">
 </p>
 ---
 ## Screenshots of the evaluation with responses
