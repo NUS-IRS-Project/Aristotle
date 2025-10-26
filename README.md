@@ -14,7 +14,7 @@ We had an amazing time working on this project, each minute detail is taken care
 ---
 ## Screenshots of the evaluation report
 <p align="left">
-  <img src="Pics/Plain_Llama3.1:8B_result.png" alt="Title image" width="420">
+  <img src="Pics/RAGAS.png.png" alt="Title image" width="420">
 </p>
 ---
 ## Screenshots of the evaluation with responses
