@@ -58,11 +58,13 @@ Youtube Links:
 Demo:
 <p align="center">
   <a href="https://youtu.be/7WmAVbI0FV0">
+    <img src="https://img.youtube.com/vi/7WmAVbI0FV0/maxresdefault.jpg" alt="Project demo" width="700
   </a>
 </p>
 System Design:
 <p align="center">
   <a href="https://youtu.be/aHWykV4YTTQ">
+     <img src="https://img.youtube.com/vi/aHWykV4YTTQ/maxresdefault.jpg" alt="Project demo" width="700">
   </a>
 </p>
 
