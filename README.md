@@ -13,13 +13,15 @@ We had an amazing time working on this project, each minute detail is taken care
 
 ---
 ## Screenshots of the evaluation report
-<p align="left">
+<p align="center">
   <img src="Pics/RAGAS.png" alt="Title image" width="420">
 </p>
-<p align="left">
+<p align="center">
   <img src="Pics/RTD.png" alt="Title image" width="420">
 </p>
+
 ---
+
 ## Screenshots of the evaluation with responses
 Generic Non-Code generating Model: Llama3.1:8B's response for a question:  
 <p align="left">
