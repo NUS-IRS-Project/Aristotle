@@ -60,7 +60,7 @@ Vector Search based result(Bottom), Aristotle's Accurate Response(On the Right)
 
 <p align="center">
   <a href="https://youtu.be/7WmAVbI0FV0">
-    <img src="https://img.youtube.com/vi/7WmAVbI0FV0/maxresdefault.jpg" alt="Project demo" width="700
+    <img src="https://img.youtube.com/vi/7WmAVbI0FV0/maxresdefault.jpg" alt="Project demo" width="700">
   </a>
 </p>
 
