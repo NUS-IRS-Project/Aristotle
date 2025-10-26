@@ -1,0 +1,7 @@
+Group Number: Group 13
+
+Group Members:
+1. Norbert Oliver - A0328685M
+2. Sharvesh Subhash - A0327428Y
+
+GitHub Repository Link: https://github.com/NUS-IRS-Project/Aristotle
